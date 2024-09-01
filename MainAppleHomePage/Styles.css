@@ -1,0 +1,759 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .Bubble-image {
+   position: relative;
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: rgb(250, 246, 246);
+   font-family: Arial, Helvetica, sans-serif;
+   width: 100%;
+   height: 500px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 40%; 
+} */
+img{
+    max-width: 100%;
+    max-height: 80%;
+}
+/*header styele*/
+
+.header-wraper{
+    background-color: black;
+    color: white;
+    font-weight: 200;
+    font-size: 0.75em;
+    position: fixed;
+     align-items: center; 
+    justify-content: center; 
+    display: flex;
+    width: 100%;
+}
+.header-wraper ul {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    list-style: none;
+}
+.internal-wrapper {
+width: 980px;
+padding: 0 10px; 
+
+/* margin-left: 50px; */
+}
+
+.header-wraper .header-Links-wrapper ul li a{
+    text-decoration: none;
+    color: white; 
+    }
+.header-wraper .header-Links-wrapper ul li{
+    display: inline-block;
+    padding: 14px 0 8px;
+    height: 25px;
+    opacity: 0.8;
+}
+.header-wraper .header-Links-wrapper ul li:hover{
+    opacity: 1;
+}
+ .logo-Link,.search-Link,.cart-Link{
+   width: 18px; 
+   display: block;
+ }
+ .header-wraper .header-Links-wrapper ul li.logo-Link{
+    padding: 12px 0 8px;
+ }
+ .header-wraper .header-Links-wrapper ul li.search-Link{
+    padding: 12px 0 8px;
+ }
+ .header-wraper .header-Links-wrapper ul li.lcart-Link{
+    padding: 12px 0 8px;
+ } 
+ 
+/* Main section  */
+.Athlete{
+   height: 665px ;
+   width: 100%;
+   background-image: url(./Images/home/hero_paralympics__f0u9lu6obdiu_large.jpg);
+   background-size: cover;
+   color: white;
+ text-align: center;
+ justify-content: center;
+  margin-bottom: 10px; 
+ 
+}
+.Athlete h1{
+   font-size: 60px;
+   padding-top: 60px;
+}
+.Athlete p{
+   font-size: 25px;
+   padding-top: 20px;
+   letter-spacing: inherit;
+}
+.iphone-family{
+   font-family: SF Pro Text", "SF ;
+   background-image: url(./Images/home/hero_iphone_family_a__c7v3mvx3jv42_medium.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 600px;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   bottom: 0;
+}
+.iphone-family h1{
+   font-size: 60px;
+   padding-top: 40px;
+}
+.iphone-family p{
+   font-size: 30px;
+   margin-top: 10px;
+}
+.button  {
+   font-size:  17px;
+ border-style: solid  white;
+ text-align: center;
+ text-decoration: none;
+ margin: 4px 2px;
+ border-radius: 50px;
+ padding-left: 21px;
+ padding-right: 21px;
+ padding-top: 11px;
+ padding-bottom: 11px;
+ border-width: 1px;
+ height: 40px;
+   }
+   .button.button1{
+       margin: 4px 2px;
+       border-color:white;
+       background-color: white;
+       bottom: 0;
+       margin-bottom: 5px;
+   }
+   .button.button2{
+       background-color: rgb(9, 9, 212);
+       color: white;
+       border-color :blue;
+       margin-top: 20px;
+   }
+   .button.button3 {
+       background-color: black;
+       color: blue;
+       border-color: blue;
+       margin-top: 10px;
+       
+   }
+   .button.button3:hover{
+       background-color: blue;
+       color: white;
+   }
+.Bubble-image {
+   /* position: absolute; */
+   background-color: white;
+   background-size: cover;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 150px;
+   position: relative;
+   /* display: inline-block; */
+   justify-content: center;
+   align-items: center;
+   /* height: 100vh; */
+   font-family: Arial, Helvetica, sans-serif;
+   width: 100%;
+   height: 500px;
+   margin-bottom: 10px;
+   margin-left: 40%; 
+} 
+.corner-image{
+   position: absolute;
+   top: -10px;
+   right: -100px;
+   width: 220px;
+   height: 212px;
+}
+.corner-image1{
+   position: absolute;
+   margin-left: 40px;
+   bottom: -100px;
+   left: -135px;
+   width: 118px;
+   height: 1250px;
+}
+.corner-image2{
+   position: absolute;
+   margin-left: 50px;
+   top: -20px;
+   left: -100px;
+   width: 62px;
+   height: 68px;
+}
+.corner-image3{
+   position: absolute;
+   top: 10px;
+   right: -55px;
+   width: 84px;
+   height: 88px;
+}
+.corner-image4{
+   position: absolute;
+   top: -10px;
+   right: -20px;
+   width: 48px;
+   height: 48px;
+   
+}
+
+.button.button15{
+   background-color: white;
+   color: blue;
+   border-color :blue;
+   margin-top: 20px;
+   margin-left: 70px;
+}
+.button.button15:hover{
+   background-color: blue;
+   color: white;
+   
+}
+/* div#myDiv {
+   transform: rotate(20deg);
+ } */
+
+/* Styling the text bubble */
+.text-bubble1 {
+   position: relative;
+   background-color: #06c;
+   color: white;
+   padding: 15px 20px;
+   border-radius: 20px;
+   font-weight: 400;
+   width: 275px;
+   height: 130px;
+   /* text-align: center; */
+   font-size: 20px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Creating the triangle for the speech bubble */
+.text-bubble1::after {
+   content: '';
+   position: absolute;
+   bottom: -20px; /* Adjust this based on the size of the triangle */
+   right: 20px; /* Adjust this to position the tail */
+   border-width: 20px 10px 0 10px; /* Triangle size */
+   border-style: solid;
+   border-color: #06c transparent transparent transparent; /* Color matches the bubble */
+}
+.text-bubble2 {
+   position: relative;
+   background-color: #06c;
+   color: white;
+   padding: 15px 20px;
+   border-radius: 20px;
+   width: 160px;
+   height: 10px;
+  margin-left: 40px;
+  border-style:solid; 
+  border-top-right-radius: white;
+  margin-bottom: 5px;
+  
+ 
+
+   /* text-align: center; */
+   font-size: 14px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Creating the triangle for the speech bubble */
+.text-bubble2::after {
+   content: '';
+   position: absolute;
+   bottom: -20px; /* Adjust this based on the size of the triangle */
+   right: 20px; /* Adjust this to position the tail */
+   border-width: 20px 10px 0 10px; /* Triangle size */
+   border-style: solid;
+   border-color: #06c transparent transparent transparent; /* Color matches the bubble */
+}
+.text-bubble3 {
+   position: relative;
+   background-color: #06c;
+   color: white;
+   padding: 15px 20px;
+   border-radius: 20px;
+   font-weight: 400;
+   margin: 15px;
+   width: 270px;
+   height: 80px;
+   /* text-align: center; */
+   font-size: 17px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Creating the triangle for the speech bubble */
+.text-bubble3::after {
+   content: '';
+   position: absolute;
+   bottom: -20px; /* Adjust this based on the size of the triangle */
+   right: 20px; /* Adjust this to position the tail */
+   border-width: 20px 10px 0 10px; /* Triangle size */
+   border-style: solid;
+   border-color: #06c transparent transparent transparent; /* Color matches the bubble */
+}
+.text-bubble4 {
+   position: relative;
+   background-color: silver;
+   color: black;
+   padding: 15px 20px;
+   margin: 10px;
+   border-radius: 20px;
+   width: 220px;
+   height: 10px;
+   /* text-align: center; */
+   font-size: 18px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Creating the triangle for the speech bubble */
+.text-bubble4::after {
+   content: '';
+   position: absolute;
+   bottom: -20px; /* Adjust this based on the size of the triangle */
+   left: 20px; /* Adjust this to position the tail */
+   border-width: 20px 10px 0 10px; /* Triangle size */
+   border-style: solid;
+   border-color: silver transparent transparent transparent; /* Color matches the bubble */
+}
+
+.Family{
+   justify-content: space-between;
+   margin-top: 10px;
+   display: flex;
+   gap: 20px;
+  
+   background-color: rgb(255, 255, 255);
+}
+.ipad-family{
+   background-image: url(./Images/home/promo_ipadpro__ch217v9v7no2_medium.jpg);
+   text-align: center;
+   justify-content: center;
+   color: white;
+   width: 665px;
+   height: 500px;
+   align-items: center;
+   margin-left: 20px;
+   
+}
+.ipad-family h1{
+   font-size: 60px;
+   padding-top: 20px;
+}
+.ipad-family p{
+   font-size: 20px;
+   
+}
+.button.button4{
+   background-color: rgb(11, 11, 238);
+   color: white;
+   border-color :blue;
+   margin-bottom: 5px;
+   font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+   
+}
+.button.button5 {
+   background-color: black;
+   color: blue;
+   border-color: blue;
+   margin-bottom: px;
+}
+.button.button5:hover{
+   background-color: blue;
+   color: white;
+}
+.MackBook-family{
+   background-image: url(./Images/home/promo_macbook_air_m3__e43jegok3wuq_medium.jpg);
+   justify-content: center;
+   text-align: center;
+   background-color: gray;
+   width: 665px;
+   height: 500px;
+   margin-right: 20px;
+   
+}
+.MackBook-family h1 p{
+   color: white;
+}
+.MackBook-family h1{
+   font-size: 50px;
+   padding-top: 20px;
+}
+.MackBook-family p{
+  font-size: 20px;
+}
+.button.button6{
+   background-color: blue;
+   color: white;
+   border-color :blue;
+}
+.button.button7{
+   background-color:white;
+   color: blue;
+   border-color: blue;
+   border-radius: 20px;
+}
+.button.button7:hover{
+   background-color: blue;
+   color: white;
+}
+.Vision-watch{
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+   margin-top:  20px;
+   gap: 20px;
+}
+.Vision-pro{
+   background-image: url(./Images/home/promo_apple_vision_pro__f4v4zp0sum2y_small22.jpg);
+   width: 665px;
+  height: 500px;
+  text-align: center;
+  margin-left: 20px;
+}
+.Vision-pro p{
+   font-size: 20px;
+}
+.Vision-pro img{
+   size: 50px;
+   margin-top: 350px;
+   
+}
+.button.button8{
+   background-color: blue;
+   color: white;
+   border-color :blue;
+}
+.button.button9{
+   background-color:white;
+   color: blue;
+   border-color: blue;
+   border-radius: 20px;
+   width: 64px;
+   height: 36px;
+}
+.button.button9:hover{
+   background-color: blue;
+   color: white;
+}
+.Watch{
+   background-image: url(./Images/home/promo_apple_watch_series_9_order__b3u85rm9zf6u_small22.jpg);
+   width: 665px;
+   height: 500px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   margin-right: 20px;
+   background-size: cover;
+ }
+ .Watch p {
+   color: white;
+   font-size: 20px;
+ }
+ .Watch img{
+   margin-top: 30px;
+ }
+ .button.button10{
+   background-color: blue;
+   color: white;
+   border-color :blue;
+   margin-bottom: 5px;
+   
+}
+.button.button11 {
+   background-color: black;
+   color: blue;
+   border-color: blue;
+   margin-bottom: px;
+}
+.button.button11:hover{
+   background-color: blue;
+   color: white;
+}
+.Card{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+   align-items: center;
+   text-align: center;
+   margin-top: 10px;
+   gap: 20px;
+   margin-bottom: 10px;
+}
+.Card .Card1{
+   background-image: url(./Images/home/promo_apple_card__5cm7draujpey_medium.jpg);
+   background-size: cover;
+   width: 665px;
+   height: 600px;
+   margin-left: 20px;
+}
+.Card1 img {
+   margin-top: 30px;
+   font-size: 50px;
+   padding-top: 20px;
+}
+.Card1 p{
+   font-size: 20px;
+}
+.button.button12{
+   background-color: blue;
+   color: white;
+   border-color :blue;
+}
+.button.button13{
+   background-color:white;
+   color:black;
+   border-color: blue;
+ border-radius: 20px;
+ border-width: 1px;  
+}
+.button.button13:hover{
+   background-color: blue;
+   color: white;
+}
+.Trade{
+   background-image: url(./Images/home/promo_iphone_tradein__bugw15ka691e_medium22222.jpg);
+   width: 665px;
+   background-size: cover;
+  height: 600px;
+ margin-right: 10px;
+}
+.Trade img {
+   margin-top: 30px;
+   padding-top: 20px;
+}
+.Trade p{
+   font-size: 20px;
+}
+.button.button14{
+   background-color:blue;
+   color: white;
+   border-color: blue;
+   border-radius: 20px;
+   border-width: 1px;
+ }
+ /* Animation pages */
+ 
+/* Slideshow Styles */
+.slideshow-container {
+   position: relative;
+   width: 100%;
+   height: 700px; /* Increased height to accommodate image and text */
+   overflow: hidden;
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+   
+}
+
+.slide {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+   transform: translateX(50%);
+   transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.slide img {
+   width: 980px;
+   height: 100%; /* Adjust as needed */
+   object-fit: cover;
+}
+
+
+.slide:nth-child(1) {
+   animation: slideshow 45s infinite;
+}
+
+.slide:nth-child(2) {
+   animation: slideshow 45s 5s infinite;
+}
+
+.slide:nth-child(3) {
+   animation: slideshow 45s 10s infinite;
+}
+.slide:nth-child(4) {
+   animation: slideshow 45s 15s infinite;
+}
+.slide:nth-child(5) {
+   animation: slideshow 45s 20s infinite;
+}
+.slide:nth-child(6) {
+   animation: slideshow 45s 25s infinite;
+}
+.slide:nth-child(7) {
+   animation: slideshow 45s 30s infinite;
+}
+slide:nth-child(8) {
+   animation: slideshow 45s 35s infinite;
+}
+slide:nth-child(9) {
+   animation: slideshow 45s 40s infinite;
+}
+slide:nth-child(10) {
+   animation: slideshow 45s 45s infinite;
+}
+@keyframes slideshow {
+   0%, 26.66% {
+       opacity: 1;
+       transform: translateX(0);
+   }
+   33.33%, 93.33% {
+       opacity: 0;
+       transform: translateX(-100%);
+   }
+   100% {
+       opacity: 0;
+       transform: translateX(-200%);
+   }
+}
+.dots-container {
+   text-align: center;
+   margin-top: 10px;
+ }
+.dot {
+   height: 10px;
+   width: 10px;
+   margin: 0 5px;
+   display: inline-block;
+   background-color: #bbb;
+   border-radius: 50%;
+   cursor: pointer;
+ }
+ .active, .dot:hover {
+   background-color: #111010;
+ }
+ #slide1:checked ~ .slides:nth-of-type(1),
+ #slide2:checked ~ .slides:nth-of-type(2),
+ #slide3:checked ~ .slides:nth-of-type(3)
+ #slide4:checked ~ .slides:nth-of-type(4),
+ #slide5:checked ~ .slides:nth-of-type(5),
+ #slide6:checked ~ .slides:nth-of-type(6)
+ #slide7:checked ~ .slides:nth-of-type(7)
+ #slide7:checked ~ .slides:nth-of-type(8)
+ #slide7:checked ~ .slides:nth-of-type(9)
+ #slide7:checked ~ .slides:nth-of-type(10)
+ {
+   display: flex;
+ }
+ input[type="radio"] {
+   display: inline-block;
+ }
+ 
+/* footer */
+.footer-wrapper{
+    background-color: #f5f5f7;
+    color:#1d1d1f;
+    font-size: .75em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+     }
+     .footer-wrapper .internal-wrapper{
+     margin-left: 165px;
+     }
+ .upper-text-container{
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 20px;
+ }   
+ .upper-text-container a{
+    text-decoration: none;
+    color: #515154;
+ }
+ .upper-text-container a:hover{
+    text-decoration: underline;
+    color: black;
+ }
+ .footer-links-wrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+ }
+ .footer-wrapper ul{
+    list-style: none;
+    padding-bottom: 20px;
+ }
+ .footer-wrapper ul li{
+    padding: 5px 0;
+    font-size: .95em;
+  }
+  .footer-links-wrapper a{
+    text-decoration: none;
+    color: #515154;
+  }
+  .footer-links-wrapper a:hover{
+    text-decoration: underline;
+    color:black
+  }
+  .footer-links-wrapper h3{
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .my-apple-wrapper{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom:1px solid #d2d2d7;
+    }
+.copyright-wrapper{
+    display: flex;
+    -webkit-box-pack:justify;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+}
+ .footer-links-terms ul li{
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid #ccc;
+ }
+ .footer-links-terms ul li:last-child{
+    border-right: 0px;
+ }
+ .footer-links-terms ul li a{
+    text-decoration: none;
+    color: #515154;
+ }
+ .footer-links-terms ul li a:hover{
+    text-decoration: underline;
+ }
+ .footer-country{
+  display: inline-block;
+ }
+ .footer-country-name{
+    display: inline-block;
+    vertical-align: top;
+ }
+ .footer-country-name a{
+    text-decoration: none;
+    color: #515154;
+ }
+ .footer-country-name a:hover{
+    text-decoration: underline;
+ }
+ 
+
+
+
+
+
+
+
+
+ 
